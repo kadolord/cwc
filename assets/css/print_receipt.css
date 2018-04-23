@@ -1,0 +1,13 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+ #official_receipt * {
+    visibility: visible;
+  }
+  #official_receipt {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
